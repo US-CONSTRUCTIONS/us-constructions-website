@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="U.S. CONSTRUCTIONS offers civil engineering, construction consultancy, property valuation, project estimates, planning and real estate services in India.">
+<title>U.S. CONSTRUCTIONS | Engineering & Real Estate</title>
+<style>
+:root{--bg:#0c1014;--panel:#151b21;--gold:#d8b46a;--gold2:#f0d99f;--text:#f7f5f0;--muted:#c1c7cd;--line:rgba(216,180,106,.28)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1160px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(12,16,20,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.brand{font-weight:800;letter-spacing:1.5px;font-size:1.08rem}.brand span{color:var(--gold)}
+nav{display:flex;gap:22px;flex-wrap:wrap;font-size:.9rem;color:var(--muted)}nav a:hover{color:var(--gold)}
+.hero{min-height:590px;display:flex;align-items:center;position:relative;overflow:hidden;background:linear-gradient(90deg,rgba(6,9,12,.94) 0%,rgba(6,9,12,.78) 48%,rgba(6,9,12,.25) 100%),linear-gradient(0deg,rgba(12,16,20,.65),rgba(12,16,20,.05)),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2000&q=85') center/cover}
+.hero:after{content:"";position:absolute;inset:18px;border:1px solid rgba(216,180,106,.4);pointer-events:none}
+.hero-content{position:relative;z-index:1;max-width:740px;padding:90px 0}
+.eyebrow{color:var(--gold);font-size:.8rem;letter-spacing:3px;text-transform:uppercase;font-weight:700}
+h1{font-size:clamp(2.5rem,6vw,5.2rem);line-height:1.05;margin:16px 0 20px;letter-spacing:-1.7px}
+h1 em{font-style:normal;color:var(--gold)}.hero p{max-width:650px;color:#e1e4e7;font-size:1.1rem}
+.btns{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;padding:13px 21px;border:1px solid var(--gold);font-weight:700;border-radius:3px}.btn.primary{background:var(--gold);color:#101317}.btn:hover{transform:translateY(-1px);filter:brightness(1.08)}
+section{padding:82px 0}.section-head{max-width:740px;margin-bottom:36px}.section-head h2{font-size:clamp(2rem,4vw,3rem);margin:7px 0 12px;line-height:1.15}.section-head p{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);border:1px solid rgba(255,255,255,.08);padding:25px;min-height:210px}.card .num{color:var(--gold);font-size:.85rem;letter-spacing:2px}.card h3{margin:12px 0 8px;font-size:1.15rem}.card p{margin:0;color:var(--muted);font-size:.95rem}
+.about{background:#11171c;border-top:1px solid rgba(255,255,255,.06);border-bottom:1px solid rgba(255,255,255,.06)}
+.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}.about-art{min-height:350px;background:linear-gradient(135deg,rgba(216,180,106,.18),rgba(0,0,0,.1)),url('https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=80') center/cover;border:1px solid var(--line)}
+.checks{padding:0;list-style:none}.checks li{padding:9px 0;border-bottom:1px solid rgba(255,255,255,.08);color:var(--muted)}.checks li:before{content:"✦";color:var(--gold);margin-right:12px}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.project{min-height:220px;display:flex;align-items:end;padding:20px;background:linear-gradient(0deg,rgba(0,0,0,.85),rgba(0,0,0,.02)),url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80') center/cover;border:1px solid var(--line)}.project:nth-child(2){background-image:linear-gradient(0deg,rgba(0,0,0,.85),rgba(0,0,0,.02)),url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80')}.project:nth-child(3){background-image:linear-gradient(0deg,rgba(0,0,0,.85),rgba(0,0,0,.02)),url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80')}
+.project strong{font-size:1.1rem}.note{color:var(--muted);font-size:.9rem;margin-top:18px}
+.contact{background:linear-gradient(135deg,#171d22,#0b0f12)}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:36px}.contact-card{border:1px solid var(--line);padding:28px;background:rgba(255,255,255,.025)}.contact-line{margin:18px 0;color:var(--muted)}.contact-line b{display:block;color:var(--gold);font-size:.8rem;text-transform:uppercase;letter-spacing:1.4px}.contact-line a{overflow-wrap:anywhere}.contact-line a:hover{color:var(--gold2)}
+form{display:grid;gap:13px}input,textarea,select{width:100%;padding:14px;background:#0c1115;color:var(--text);border:1px solid #394047;border-radius:2px;font:inherit}textarea{min-height:120px;resize:vertical}button{cursor:pointer;font:inherit}
+footer{padding:25px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.floating{position:fixed;right:20px;bottom:20px;z-index:30;background:#20bd5a;color:white;padding:13px 17px;border-radius:30px;font-weight:700;box-shadow:0 8px 25px #0008}
+@media(max-width:800px){.nav{align-items:flex-start;padding:17px 0;flex-direction:column}nav{gap:12px}.hero{min-height:560px}.grid,.projects{grid-template-columns:1fr 1fr}.about-grid,.contact-grid{grid-template-columns:1fr}.about-art{min-height:260px}}
+@media(max-width:520px){.grid,.projects{grid-template-columns:1fr}section{padding:60px 0}.hero-content{padding:70px 0}.hero:after{inset:9px}.brand{font-size:1rem}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home">U.S. <span>CONSTRUCTIONS</span></a>
+<nav aria-label="Main navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#real-estate">Real Estate</a><a href="#contact">Contact</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-content">
+<div class="eyebrow">Construction · Engineering · Real Estate</div>
+<h1>Engineering <em>Excellence.</em><br>Building the Future.</h1>
+<p>Professional construction, civil engineering consultancy, property valuation, project estimation and real estate solutions—built around quality, reliability and your vision.</p>
+<div class="btns"><a class="btn primary" href="#contact">Discuss Your Project</a><a class="btn" href="https://wa.me/919730809342?text=Hello%20U.S.%20Constructions%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener">WhatsApp Us</a></div>
+</div></section>
+<section id="about" class="about"><div class="wrap about-grid">
+<div><div class="eyebrow">Who We Are</div><div class="section-head"><h2>Strong foundations.<br><em style="color:var(--gold);font-style:normal">Lasting relationships.</em></h2><p>Welcome to U.S. CONSTRUCTIONS. We aim to deliver practical, professional solutions across construction, civil engineering, valuation, planning and real estate consultancy.</p></div>
+<ul class="checks"><li>Quality-focused, client-first approach</li><li>Practical planning and project estimates</li><li>Residential, commercial and property-related services</li><li>Serving clients from Sakri, Maharashtra and welcoming international enquiries</li></ul></div>
+<div class="about-art" role="img" aria-label="Modern architectural home"></div>
+</div></section>
+<section id="services"><div class="wrap"><div class="section-head"><div class="eyebrow">What We Do</div><h2>Our <em style="color:var(--gold);font-style:normal">Services</em></h2><p>Engineering and property services to support your project from idea to implementation.</p></div>
+<div class="grid">
+<article class="card"><div class="num">01 / BUILD</div><h3>Residential & Commercial Construction</h3><p>Planning and construction support for homes, shops, offices and other building projects.</p></article>
+<article class="card"><div class="num">02 / ENGINEER</div><h3>Civil Engineering Consultancy</h3><p>Practical technical guidance for building and civil-work projects.</p></article>
+<article class="card"><div class="num">03 / VALUE</div><h3>Property Valuation</h3><p>Property valuation and bank-loan report services, subject to applicable panel and professional requirements.</p></article>
+<article class="card"><div class="num">04 / ESTIMATE</div><h3>Detailed Project Estimates</h3><p>Cost estimates and project documentation to help with budgeting and planning.</p></article>
+<article class="card"><div class="num">05 / DESIGN</div><h3>2D Plans & 3D Elevations</h3><p>Architectural planning support and visual concepts for building projects.</p></article>
+<article class="card"><div class="num">06 / CONSULT</div><h3>Construction Project Consultancy</h3><p>Project coordination and guidance tailored to your requirements.</p></article>
+</div></div></section>
+<section id="real-estate" class="about"><div class="wrap"><div class="section-head"><div class="eyebrow">Property Services</div><h2>Real Estate <em style="color:var(--gold);font-style:normal">Solutions</em></h2><p>Support for people exploring property opportunities and transactions.</p></div>
+<div class="grid">
+<article class="card"><div class="num">01</div><h3>Residential Properties</h3><p>Enquiries about homes, flats and residential property opportunities.</p></article>
+<article class="card"><div class="num">02</div><h3>Commercial Properties</h3><p>Support with enquiries for shops, offices and commercial spaces.</p></article>
+<article class="card"><div class="num">03</div><h3>Plots, Land & Consultancy</h3><p>Property and land enquiries, subject to title checks and applicable local rules.</p></article>
+</div><p class="note">Real estate transactions and regulated activities are subject to applicable local laws, registrations and approvals.</p></div></section>
+<section id="projects"><div class="wrap"><div class="section-head"><div class="eyebrow">Selected Work</div><h2>Project <em style="color:var(--gold);font-style:normal">Gallery</em></h2><p>Replace these sample images with photographs of your actual projects, plans and completed work.</p></div>
+<div class="projects"><div class="project"><strong>Residential Architecture</strong></div><div class="project"><strong>Commercial Buildings</strong></div><div class="project"><strong>Modern Home Concepts</strong></div></div>
+<p class="note">These are illustrative stock photographs, not representations of completed U.S. CONSTRUCTIONS projects.</p></div></section>
+<section id="contact" class="contact"><div class="wrap"><div class="section-head"><div class="eyebrow">Let's Talk</div><h2>Start Your Next <em style="color:var(--gold);font-style:normal">Project</em></h2><p>Contact us to discuss construction, engineering, valuation, estimates or real estate enquiries.</p></div>
+<div class="contact-grid"><div class="contact-card">
+<div class="contact-line"><b>Call / WhatsApp</b><a href="tel:+919730809342">+91 97308 09342</a> · <a href="https://wa.me/919730809342" target="_blank" rel="noopener">Message on WhatsApp</a></div>
+<div class="contact-line"><b>Email</b><a href="mailto:usconstruction3421@gmail.com">usconstruction3421@gmail.com</a></div>
+<div class="contact-line"><b>Office</b>1st Floor, Shop No. 2, above Mohit Xerox,<br>in front of Government Hospital,<br>Sakri, Maharashtra, India.</div>
+<div class="contact-line"><b>International enquiries</b>Remote consultancy enquiries from Dubai and other locations are welcome. Local licensing or approvals may be required for on-site or regulated services.</div>
+</div>
+<div class="contact-card"><h3 style="margin-top:0">Send an enquiry</h3><form id="enquiryForm">
+<input id="name" name="name" placeholder="Your name" required>
+<input id="phone" name="phone" placeholder="Your phone / WhatsApp number" required>
+<select id="service" name="service" required><option value="">Select a service</option><option>Construction</option><option>Civil Engineering Consultancy</option><option>Property Valuation</option><option>Project Estimate</option><option>2D Plan / 3D Elevation</option><option>Real Estate</option><option>International Consultancy</option><option>Other</option></select>
+<textarea id="message" name="message" placeholder="Tell us briefly about your project" required></textarea>
+<button class="btn primary" type="submit">Send enquiry on WhatsApp</button>
+</form><p class="note">This form opens WhatsApp with your enquiry details; it does not store information on this website.</p></div></div></div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> U.S. CONSTRUCTIONS. All rights reserved.</span><span>Engineering Excellence. Building the Future.</span></div></footer>
+<a class="floating" href="https://wa.me/919730809342?text=Hello%20U.S.%20Constructions" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp ↗</a>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('enquiryForm').addEventListener('submit', function(e){
+ e.preventDefault();
+ const name=document.getElementById('name').value.trim();
+ const phone=document.getElementById('phone').value.trim();
+ const service=document.getElementById('service').value;
+ const message=document.getElementById('message').value.trim();
+ const text=`Hello U.S. CONSTRUCTIONS,%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AService: ${encodeURIComponent(service)}%0AProject details: ${encodeURIComponent(message)}`;
+ window.open('https://wa.me/919730809342?text='+text,'_blank','noopener');
+});
+</script>
+</body></html>
